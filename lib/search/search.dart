@@ -5,10 +5,6 @@ import 'package:paises/services/country_service.dart';
 
 class Search extends SearchDelegate {
   final countryServices = new CountryService();
-  // final String searchFieldLabel;
-  // final List<CountryModel> historial;
-
-  // Search({required this.searchFieldLabel, required this.historial});
 
   @override
   List<Widget>? buildActions(BuildContext context) {

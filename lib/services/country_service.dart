@@ -4,6 +4,8 @@ import 'package:http/http.dart' as http;
 import 'package:paises/models/country_model.dart';
 
 class CountryService {
+  // Consumo de la API
+
   String url = 'restcountries.com';
 
   Future<List<CountryModel>> getData() async {

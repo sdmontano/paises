@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:paises/models/country_model.dart';
-import 'package:paises/screens/detail_screen.dart';
-import 'package:paises/services/country_service.dart';
 
 class CardWidget extends StatelessWidget {
   String flag;

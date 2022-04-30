@@ -9,6 +9,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //Pantalla principal de la aplicacion
+
     PageController controller = PageController();
 
     CountryService service = CountryService();
